@@ -7,6 +7,7 @@ customer
 make
 
 
+
 Menu file -
 Gets the users selection for checking account, savings account and the customer
 Start, ensures its what the user is doing, so if 0 is selected to end menu it will end the menu 
@@ -15,4 +16,44 @@ Start, ensures its what the user is doing, so if 0 is selected to end menu it wi
 
 Checking account -
 double balance, holds the balance and its labeled as a double because it is a decimal 
+checking account with double balance - creates account with a starting balance
+get balance - shows balance
+set balance - changes the balance when money is added or removed
+getbalance string - forms it as money 
+check balance - shows current balance
+make deposit - adds money 
+make withdrawl - removes money 
+get double - reads the number from the user
+menu - shows account options from the menu 
+start - runs the account menu 
+
+
+
+Savings Account - 
+interest rate - stores the interest rate
+get interest rate - returns the interest rate
+set interest rate - changes the interest rate
+calculate interest rate - calculates the interest rate then adds to balance
+
+
+User - 
+String user name
+string pin
+methods for logging in 
+setting username
+setting pin
+getting pin
+generating a report
+
+
+
+customer
+contains Checking account checking
+Savings account savings
+needs - 
+something to accept username and pin 
+start
+menu 
+changepin
+get report
 
