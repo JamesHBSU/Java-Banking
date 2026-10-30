@@ -1,0 +1,18 @@
+Files needed - 
+Menu file
+Checking Account
+Savings account
+user
+customer
+make
+
+
+Menu file -
+Gets the users selection for checking account, savings account and the customer
+Start, ensures its what the user is doing, so if 0 is selected to end menu it will end the menu 
+
+
+
+Checking account -
+double balance, holds the balance and its labeled as a double because it is a decimal 
+
