@@ -1,0 +1,109 @@
+interface hasMenu
+method menu 
+return menu selection
+run program
+end menu 
+
+class checkingAccount
+Declare balance
+Construcfor 
+sets balance = 0
+method getbalance
+return balance
+method set balance 
+update balance
+method check balance
+display balance
+method makeDeposit
+ask user for deposit amount
+add deposit amount to balance
+display new balance
+method makewithdrawal
+ask user for withdrawal amount
+if withdrawal amount >= balance
+- withdrawal amount from balance
+display new balance
+else display no funds
+method menu 
+display account menu 
+get user selection
+method start
+while user does not choose exit
+display menu 
+if selection is 1 
+check balance 
+if selection is 2
+make deposit
+if 3 
+make withdrawal 
+end class
+
+class savings account
+inherit checking
+declare interest rate
+method getInterestRate
+return interest rate
+method set Interest rate
+update interest rate
+method calc interest
+calculate interest using balance and interest rate
+add interest to balance
+end class
+
+Abstract class user
+Declare username
+Declare pin
+login 
+asker user for username
+ask for pin
+if userPin == Pin && name == userName 
+return logged in
+else 
+unsuccessful
+method setUsername
+update username
+getUsername
+return username
+setpin
+update pin
+method getpin 
+return pin 
+abstract Method getReport
+end class
+
+
+customer
+inherit User
+Declare checking account
+declare savings accoount
+
+constsruct 
+set username to James
+set pin to 1111
+
+create checking account
+create savings account
+
+method menu 
+display customer menu 
+get user selection 
+
+method changepin
+ask for new pin 
+update pin 
+
+method getReport
+display username, checking bal, savings bal
+
+start
+login customer
+if successful 
+while user does not choose exit 
+display customer menu 
+if 1 open checking
+if 2 open savings
+if 3 change pin 
+else
+login failed
+end class
+
